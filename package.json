@@ -1,14 +1,15 @@
 {
   "name": "esp32-sd-cloud",
   "version": "1.0.0",
+  "description": "Serveur cloud pour gerer la carte SD d'un ESP32-CAM",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
-  "dependencies": {
-    "express": "^4.21.0"
-  },
   "engines": {
     "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
   }
 }
